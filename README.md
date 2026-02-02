@@ -91,3 +91,47 @@ Biggest weakness: urgency + curiosity
   </table>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SIMULATION – You Got Phished</title>
+  <style>
+    body { font-family:Arial,sans-serif; text-align:center; background:#f8d7da; color:#721c24; padding:40px; margin:0; }
+    .box { max-width:720px; margin:0 auto; background:white; padding:40px; border-radius:10px; box-shadow:0 4px 20px rgba(0,0,0,0.15); }
+    h1 { color:#dc3545; }
+    ul { text-align:left; line-height:1.6; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>🚨 THIS WAS A PHISHING SIMULATION 🚨</h1>
+    <p style="font-size:1.4em; margin:20px 0;">
+      Congratulations — you just clicked a fake phishing link!<br>
+      (But don't worry — this is only a personal training exercise.)
+    </p>
+
+    <h2>Red Flags You Should Have Noticed (2026)</h2>
+    <ul>
+      <li>Urgent deadline / threat ("before Feb 05" or lose access)</li>
+      <li>Generic greeting ("Dear User" instead of your name)</li>
+      <li>Sender address usually suspicious (not ending in @microsoft.com)</li>
+      <li>Link looks real but goes somewhere else (always hover!)</li>
+      <li>No real company context or tenant name</li>
+      <li>Pressure + fear ("service will be limited")</li>
+      <li>Unexpected email about account/security/storage</li>
+    </ul>
+
+    <p style="margin-top:40px; font-size:1.1em;">
+      <strong>Best habit:</strong> Never click links in urgent security emails.<br>
+      Go directly to office.com or the official app instead.
+    </p>
+
+    <p style="margin-top:30px; color:#444;">
+      Made for personal learning – Task 11 – February 2026
+    </p>
+  </div>
+</body>
+</html>
