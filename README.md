@@ -1,7 +1,6 @@
 # Task-11-Phishing-Attack-Simulation-Detection
-
   
-**Author:** AVIJIT  BAIDYA
+**Author:** AVIJIT  BAIDYA  
 **Date:** February 02, 2026  
 **Purpose:** Personal cybersecurity awareness exercise (only self / test accounts used)
 
@@ -95,17 +94,21 @@ Biggest weakness: urgency + curiosity
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="utf-8" />
   <title>SIMULATION – You Got Phished</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <style>
-    <body> { font-family:Arial,sans-serif; text-align:center; background:#f8d7da; color:#721c24; padding:40px; margin:0; }
-    .box { max-width:720px; margin:0 auto; background:white; padding:40px; border-radius:10px; box-shadow:0 4px 20px rgba(0,0,0,0.15); }
-    h1 { color:#dc3545; }
-    ul { text-align:left; line-height:1.6; }
-    </body>
+    /* Fixed CSS and markup issues:
+       - use `body { ... }` selector (not `<body>` inside style)
+       - clean, single <body> and single .box container
+       - proper nesting and no duplicate tags
+    */
+    body { font-family: Arial, sans-serif; text-align: center; background: #f8d7da; color: #721c24; padding: 40px; margin: 0; }
+    .box { max-width: 720px; margin: 0 auto; background: white; padding: 40px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); }
+    h1 { color: #dc3545; }
+    ul { text-align: left; line-height: 1.6; }
   </style>
 </head>
-<body>
-  <div class="box">
 <body>
   <div class="box">
     <h1>🚨 THIS WAS A PHISHING SIMULATION 🚨</h1>
@@ -114,8 +117,8 @@ Biggest weakness: urgency + curiosity
       (But don't worry — this is only a personal training exercise.)
     </p>
 
-  <h2>Red Flags You Should Have Noticed (2026)</h2>
-  <ul>
+    <h2>Red Flags You Should Have Noticed (2026)</h2>
+    <ul>
       <li>Urgent deadline / threat ("before Feb 05" or lose access)</li>
       <li>Generic greeting ("Dear User" instead of your name)</li>
       <li>Sender address usually suspicious (not ending in @microsoft.com)</li>
@@ -125,12 +128,12 @@ Biggest weakness: urgency + curiosity
       <li>Unexpected email about account/security/storage</li>
     </ul>
 
-  <p style="margin-top:40px; font-size:1.1em;">
+    <p style="margin-top:40px; font-size:1.1em;">
       <strong>Best habit:</strong> Never click links in urgent security emails.<br>
       Go directly to office.com or the official app instead.
     </p>
 
-  <p style="margin-top:30px; color:#444;">
+    <p style="margin-top:30px; color:#444;">
       Made for personal learning – Task 11 – February 2026
     </p>
   </div>
@@ -139,22 +142,22 @@ Biggest weakness: urgency + curiosity
 
 ## Quick Red Flags Checklist (2026 edition)
 
-Urgency + short deadline
-Suspicious sender / reply-to address
-Hover shows different URL
-"Dear User / Customer" greeting
-Requests password / MFA / payment via link
-Unexpected attachment
-Emotional manipulation (fear, curiosity, greed)
+Urgency + short deadline  
+Suspicious sender / reply-to address  
+Hover shows different URL  
+"Dear User / Customer" greeting  
+Requests password / MFA / payment via link  
+Unexpected attachment  
+Emotional manipulation (fear, curiosity, greed)  
 Grammar / branding slightly off (less common now)
 
 ## Personal Lessons from This Run
 
-Urgency still works even when you know it's fake
-Hovering the link is the #1 easiest defense
-Immediate feedback page (like above) helps learning a lot
+Urgency still works even when you know it's fake  
+Hovering the link is the #1 easiest defense  
+Immediate feedback page (like above) helps learning a lot  
 Next time: try HR theme, delivery scam, or fake Teams invite
 
 ## Final Note
-This repo/page is only for education and self-improvement.
+This repo/page is only for education and self-improvement.  
 Stay curious, stay suspicious, stay safe. 🛡️
