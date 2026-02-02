@@ -95,7 +95,6 @@ Biggest weakness: urgency + curiosity
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
   <title>SIMULATION – You Got Phished</title>
   <style>
     <body> { font-family:Arial,sans-serif; text-align:center; background:#f8d7da; color:#721c24; padding:40px; margin:0; }
