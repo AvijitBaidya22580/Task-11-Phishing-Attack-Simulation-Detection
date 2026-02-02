@@ -112,9 +112,10 @@ Biggest weakness: urgency + curiosity
     <p style="font-size:1.4em; margin:20px 0;">
       Congratulations — you just clicked a fake phishing link!<br>
       (But don't worry — this is only a personal training exercise.)
+    </p>
 
-  Red Flags You Should Have Noticed (2026)
-    <ul>
+  <h2>Red Flags You Should Have Noticed (2026)</h2>
+  <ul>
       <li>Urgent deadline / threat ("before Feb 05" or lose access)</li>
       <li>Generic greeting ("Dear User" instead of your name)</li>
       <li>Sender address usually suspicious (not ending in @microsoft.com)</li>
@@ -124,12 +125,14 @@ Biggest weakness: urgency + curiosity
       <li>Unexpected email about account/security/storage</li>
     </ul>
 
-  style="margin-top:40px; font-size:1.1em;">
+  <p style="margin-top:40px; font-size:1.1em;">
       <strong>Best habit:</strong> Never click links in urgent security emails.<br>
-      Go directly to office.com or the official app instead
+      Go directly to office.com or the official app instead.
+    </p>
 
-   style="margin-top:30px; color:#444;">
-      Made for personal learning 
+  <p style="margin-top:30px; color:#444;">
+      Made for personal learning – Task 11 – February 2026
+    </p>
   </div>
 </body>
 </html>
