@@ -1,127 +1,93 @@
 # Task-11-Phishing-Attack-Simulation-Detection
 
-## 🎯 Objective
+# Phishing Attack Simulation & Detection – Educational Self-Learning Lab
 
-Build hands-on understanding of:
+**Author:** AVIJIT BAIDYA 
+**Location:** Visakhapatnam, Andhra Pradesh, India  
+**Date:** February 02, 2026  
+**Purpose:** Personal cybersecurity awareness exercise (only self / test accounts used)
 
-- How real-world **phishing attacks** work (social engineering, email spoofing, credential harvesting)
-- How to **simulate** them ethically in a controlled environment
-- How to **detect** phishing attempts (red flags in email + landing page)
-- How organizations run **security awareness campaigns**
-- How to document findings and improve defenses
+## ⚠️ Important Ethical & Legal Notice
 
-**Important:** This repository is strictly for **educational**, **authorized**, and **legal** purposes (penetration testing with explicit permission, internal security awareness training, CTF/red-team labs, university coursework, etc.).
+This is a **personal educational simulation only**.  
+No real people, real companies, or real email accounts (except my own test ones) were involved.  
+**Never send phishing emails to anyone without explicit written permission** — it is illegal in most countries.
 
-## ⚠️ Strong Ethical & Legal Disclaimer
+## Goal of This Lab
 
-**DO NOT** use this material or any derivative work to:
+- Understand how phishing emails & landing pages are built
+- Create realistic (but fake) examples
+- Self-test detection skills
+- Document red flags & lessons learned
+- Practice writing a simple simulation report
 
-- Attack systems, people, or organizations without written permission
-- Send unsolicited emails to real users
-- Violate any law (computer fraud & abuse acts, anti-spam legislation, GDPR, etc.)
-- Harm anyone or any organization
+## Tools Used / Recommended (2026)
 
-Misuse of phishing tools is a criminal offense in most jurisdictions.
+- GoPhish (open-source phishing framework)  
+- Local SMTP or Mailtrap / Mailgun free tier (for testing only)  
+- Text editor + browser  
+- Targets: only myself or lab/test email accounts
 
-By using this repository you agree that you are responsible for obtaining all necessary approvals and staying within legal & ethical boundaries.
+## Simulated Campaign (Self-run – February 2026)
 
-## 🛠️ Tools Used in This Lab
+**Theme:** Fake Microsoft 365 – "Mailbox Almost Full – Action Required"  
+**Campaign name:** M365-Storage-Test-2026  
+**Date simulated:** 2026-02-02  
+**Targets:** 1 (myself – test mailbox)  
+**Result summary:**
 
-| Tool              | Purpose                              | Type          | Link / Note                                 |
-|-------------------|--------------------------------------|---------------|---------------------------------------------|
-| **GoPhish**       | Open-source phishing framework       | Recommended   | https://getgophish.com / https://github.com/gophish/gophish |
-| SMTP server       | Sending emails (testing / production)| Required      | Mailgun, SMTP2GO, self-hosted Postfix, etc. |
-| Manual templates  | HTML email + landing page            | Alternative   | Created manually or from open repos         |
-| Ngrok / localtunnel | Expose local landing page (testing) | Optional      | Useful during initial setup                 |
+| Metric                  | Value | %     |
+|-------------------------|-------|-------|
+| Emails Sent             | 1     | —     |
+| Emails Delivered        | 1     | 100%  |
+| Emails Opened           | 1     | 100%  |
+| Links Clicked           | 1     | 100%  |
+| Credentials Submitted   | 0     | 0%    |
 
-## 📋 Step-by-Step Lab Guide
+Time to click: ~40 seconds  
+Red flags spotted before clicking: 4–5 out of 8  
+Biggest weakness: urgency + curiosity
 
-### Phase 1 – Preparation (Environment Setup)
+## 1. Fake Email Template (HTML – ready for GoPhish or similar)
 
-1. Install **GoPhish** (recommended)  
-   https://docs.getgophish.com/user-guide/installation  
-   → Linux / Docker / Windows binary all supported
-
-2. Configure admin account (default: admin / gophish – change immediately!)
-
-3. Set up a **sending profile** (SMTP relay)  
-   - Use transactional email service (Mailgun, SendGrid, Amazon SES, etc.)  
-   - Self-hosted option: Postfix + OpenDKIM + SPF/DMARC records
-
-4. (Optional) Set up domain with SPF/DMARC for better deliverability in tests
-
-### Phase 2 – Create Phishing Assets
-
-1. **Email Template** (HTML + text version)
-
-   Realistic examples (do **not** use real company names without permission):
-
-   - Microsoft 365 – "Your mailbox storage is almost full"
-   - HR – "Updated payroll direct deposit form required"
-   - IT – "Critical Windows update – action required"
-   - Package delivery – "Your shipment could not be delivered"
-   - Shared file – "Document shared with you on OneDrive/SharePoint"
-
-2. **Landing Page** (credential harvester or training page)
-
-   - Fake Microsoft / Google / company login
-   - "Thank you – you've been phished!" awareness page (best practice)
-   - Collect: username, password (hashed in demo), or just click tracking
-
-### Phase 3 – Launch Controlled Simulation
-
-Target audience must be **explicitly consenting** (colleagues who agreed, yourself, lab VMs, CTF participants, etc.)
-
-1. Create **User Group** (targets)
-2. Upload/import targets (CSV: first name, last name, email, position)
-3. Create **Campaign**
-   - Select template + landing page
-   - Choose sending profile
-   - Schedule / launch
-
-### Phase 4 – Track & Analyze Results
-
-Monitor in real-time:
-
-- Email Sent / Delivered / Opened
-- Link Clicked
-- Credentials Submitted
-- Report Phishing clicked (if you added report button)
-
-### Phase 5 – Debrief & Education
-
-After campaign ends:
-
-- Show **aggregate statistics** only (never shame individuals publicly)
-- Conduct training session / email summary
-- Highlight red flags participants missed
-- Explain real defenses (SPF/DMARC, email banners, MFA, awareness)
-
-## 📊 Example Phishing Simulation Report Structure
-
-Create a report (PDF/Markdown) containing:
-
-```markdown
-# Phishing Simulation Report – [Month Year]
-
-## Campaign Overview
-- Campaign name: ____________________
-- Duration: _________________________
-- Template theme: ___________________
-- Targets: ___ users
-- Authorized by: ____________________
-
-## Key Metrics
-- Emails sent     : ____
-- Emails opened   : ____ ( __ %)
-- Links clicked   : ____ ( __ %)
-- Credentials submitted : ____ ( __ %)
-- Reported phishing : ____ ( __ %)
-
-## Red Flags Participants Missed (most common)
-1. Suspicious sender address / reply-to mismatch
-2. Generic greeting ("Dear User")
-3. Urgent language + threat
-4. Hover reveals different URL
-5. No company-specific branding mistakes
-...
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Microsoft 365 – Storage Alert</title>
+</head>
+<body style="font-family:Segoe UI,Helvetica,Arial,sans-serif; background:#f3f2f1; margin:0; padding:20px;">
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td align="center">
+        <table width="600" cellpadding="0" cellspacing="0" border="0" style="background:#ffffff; border:1px solid #e8e8e8;">
+          <tr>
+            <td style="padding:20px; background:#0078d4; color:white; text-align:center;">
+              <h2>Microsoft 365 Storage Alert</h2>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:30px 40px; color:#333;">
+              <p>Dear User,</p>
+              <p>Your mailbox is almost full (94% used). To avoid service interruption, please take action before <strong>February 05, 2026</strong>.</p>
+              <p style="text-align:center; margin:30px 0;">
+                <a href="{{.URL}}" style="background:#0078d4; color:white; padding:14px 32px; text-decoration:none; border-radius:4px; font-weight:bold; font-size:16px;">
+                  Review & Free Up Space Now
+                </a>
+              </p>
+              <p>If not resolved in 72 hours, sending/receiving email may be limited.</p>
+              <p>Microsoft Account Team</p>
+              <hr style="border:none; border-top:1px solid #eee; margin:30px 0;">
+              <p style="font-size:12px; color:#666; text-align:center;">
+                © 2026 Microsoft Corporation. All rights reserved.<br>
+                This is an automated security notice. Do not reply.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
