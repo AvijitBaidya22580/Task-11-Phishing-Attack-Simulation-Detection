@@ -92,18 +92,21 @@ Biggest weakness: urgency + curiosity
 
 
 ## 2. Fake Landing Page (Awareness version – shows instantly you were "caught")
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>SIMULATION – You Got Phished</title>
   <style>
-    body { font-family:Arial,sans-serif; text-align:center; background:#f8d7da; color:#721c24; padding:40px; margin:0; }
+    <body> { font-family:Arial,sans-serif; text-align:center; background:#f8d7da; color:#721c24; padding:40px; margin:0; }
     .box { max-width:720px; margin:0 auto; background:white; padding:40px; border-radius:10px; box-shadow:0 4px 20px rgba(0,0,0,0.15); }
     h1 { color:#dc3545; }
     ul { text-align:left; line-height:1.6; }
+    </body>
   </style>
 </head>
+<body>
+  <div class="box">
 <body>
   <div class="box">
     <h1>🚨 THIS WAS A PHISHING SIMULATION 🚨</h1>
