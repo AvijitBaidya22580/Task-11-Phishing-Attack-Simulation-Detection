@@ -51,7 +51,6 @@ Biggest weakness: urgency + curiosity
 
 ## 1. Fake Email Template (HTML – ready for GoPhish or similar)
 
-```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -93,6 +92,8 @@ Biggest weakness: urgency + curiosity
 </body>
 </html>
 (Note: {{.URL}} is replaced by the phishing framework tracking link)
+
+
 2. Fake Landing Page (Awareness version – shows instantly you were "caught")
 HTML<!DOCTYPE html>
 <html lang="en">
