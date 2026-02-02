@@ -2,8 +2,9 @@
 
 # Phishing Attack Simulation & Detection – Educational Self-Learning Lab
 
-**Author:** AVIJIT BAIDYA 
-**Location:** Visakhapatnam, Andhra Pradesh, India  
+**Task 11**  
+**Author:** AVIJIT  
+**Location:** Hyderabad, Telangana, India  
 **Date:** February 02, 2026  
 **Purpose:** Personal cybersecurity awareness exercise (only self / test accounts used)
 
@@ -91,9 +92,9 @@ Biggest weakness: urgency + curiosity
   </table>
 </body>
 </html>
-
-
-<!DOCTYPE html>
+(Note: {{.URL}} is replaced by the phishing framework tracking link)
+2. Fake Landing Page (Awareness version – shows instantly you were "caught")
+HTML<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -135,3 +136,24 @@ Biggest weakness: urgency + curiosity
   </div>
 </body>
 </html>
+Quick Red Flags Checklist (2026 edition)
+
+Urgency + short deadline
+Suspicious sender / reply-to address
+Hover shows different URL
+"Dear User / Customer" greeting
+Requests password / MFA / payment via link
+Unexpected attachment
+Emotional manipulation (fear, curiosity, greed)
+Grammar / branding slightly off (less common now)
+
+Personal Lessons from This Run
+
+Urgency still works even when you know it's fake
+Hovering the link is the #1 easiest defense
+Immediate feedback page (like above) helps learning a lot
+Next time: try HR theme, delivery scam, or fake Teams invite
+
+Final Note
+This repo/page is only for education and self-improvement.
+Stay curious, stay suspicious, stay safe. 🛡️
