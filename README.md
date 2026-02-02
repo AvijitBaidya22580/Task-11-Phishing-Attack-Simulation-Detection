@@ -91,9 +91,10 @@ Biggest weakness: urgency + curiosity
 (Note: {{.URL}} is replaced by the phishing framework tracking link)
 
 
-2. Fake Landing Page (Awareness version – shows instantly you were "caught")
-3.
-4. <!DOCTYPE html>
+
+
+## 2. Fake Landing Page (Awareness version – shows instantly you were "caught")
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -128,11 +129,12 @@ Biggest weakness: urgency + curiosity
       Go directly to office.com or the official app instead
 
    style="margin-top:30px; color:#444;">
-      Made for personal learning – Task 11 – February 2026
+      Made for personal learning 
   </div>
 </body>
 </html>
-Quick Red Flags Checklist (2026 edition)
+
+## Quick Red Flags Checklist (2026 edition)
 
 Urgency + short deadline
 Suspicious sender / reply-to address
@@ -143,13 +145,13 @@ Unexpected attachment
 Emotional manipulation (fear, curiosity, greed)
 Grammar / branding slightly off (less common now)
 
-Personal Lessons from This Run
+## Personal Lessons from This Run
 
 Urgency still works even when you know it's fake
 Hovering the link is the #1 easiest defense
 Immediate feedback page (like above) helps learning a lot
 Next time: try HR theme, delivery scam, or fake Teams invite
 
-Final Note
+## Final Note
 This repo/page is only for education and self-improvement.
 Stay curious, stay suspicious, stay safe. 🛡️
