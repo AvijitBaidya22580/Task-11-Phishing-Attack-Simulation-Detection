@@ -1,10 +1,7 @@
 # Task-11-Phishing-Attack-Simulation-Detection
 
-# Phishing Attack Simulation & Detection – Educational Self-Learning Lab
-
-**Task 11**  
-**Author:** AVIJIT  
-**Location:** Hyderabad, Telangana, India  
+  
+**Author:** AVIJIT  BAIDYA
 **Date:** February 02, 2026  
 **Purpose:** Personal cybersecurity awareness exercise (only self / test accounts used)
 
@@ -95,7 +92,8 @@ Biggest weakness: urgency + curiosity
 
 
 2. Fake Landing Page (Awareness version – shows instantly you were "caught")
-HTML<!DOCTYPE html>
+3.
+4. <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -113,9 +111,8 @@ HTML<!DOCTYPE html>
     <p style="font-size:1.4em; margin:20px 0;">
       Congratulations — you just clicked a fake phishing link!<br>
       (But don't worry — this is only a personal training exercise.)
-    </p>
 
-    <h2>Red Flags You Should Have Noticed (2026)</h2>
+  Red Flags You Should Have Noticed (2026)
     <ul>
       <li>Urgent deadline / threat ("before Feb 05" or lose access)</li>
       <li>Generic greeting ("Dear User" instead of your name)</li>
@@ -126,14 +123,12 @@ HTML<!DOCTYPE html>
       <li>Unexpected email about account/security/storage</li>
     </ul>
 
-    <p style="margin-top:40px; font-size:1.1em;">
+  style="margin-top:40px; font-size:1.1em;">
       <strong>Best habit:</strong> Never click links in urgent security emails.<br>
-      Go directly to office.com or the official app instead.
-    </p>
+      Go directly to office.com or the official app instead
 
-    <p style="margin-top:30px; color:#444;">
+   style="margin-top:30px; color:#444;">
       Made for personal learning – Task 11 – February 2026
-    </p>
   </div>
 </body>
 </html>
