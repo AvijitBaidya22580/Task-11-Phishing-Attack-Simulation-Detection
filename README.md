@@ -91,10 +91,8 @@ Biggest weakness: urgency + curiosity
 (Note: {{.URL}} is replaced by the phishing framework tracking link)
 
 
-
-
 ## 2. Fake Landing Page (Awareness version – shows instantly you were "caught")
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
